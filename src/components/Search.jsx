@@ -5,7 +5,12 @@ import Navigation from './Navigation'
 
 const Search = () => {
   return (
-    <div>
+    <div style={{
+  backgroundImage: `url("https://img.freepik.com/premium-photo/blurry-background-brown-white-photo-persons-face_1034303-148866.jpg?semt=ais_items_boosted&w=740")`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  minHeight: '100vh'
+}}>
         <Navigation/>
         <div className="container">
         <div className="row">

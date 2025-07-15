@@ -3,7 +3,13 @@ import Navigation from './Navigation'
 
 const Add = () => {
   return (
-    <div>
+    <div style={{
+  backgroundImage: `url("https://i.etsystatic.com/5295659/r/il/0acb12/5533440943/il_570xN.5533440943_1sb8.jpg")`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  minHeight: '100vh'
+}}
+>
         <Navigation/>
         <div className="container">
             <div className="row">
